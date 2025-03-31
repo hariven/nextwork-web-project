@@ -13,7 +13,6 @@ phases:
     commands:
       - echo Build started on `date`
       - mvn -s settings.xml compile
-  # packaging process 
   post_build: 
     commands:
       - echo Build completed on `date`
